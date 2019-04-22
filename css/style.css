@@ -3,6 +3,7 @@
   margin:0px;
   padding:0px;
   box-sizing:border-box;
+  background-color:blueviolet;
   
 }
 .manout
@@ -47,13 +48,14 @@
     left:40%;
   }
 }
+
 .bottom1
 {
-  position:fixed;
+  position:absolute;
   width:100px;
   height:200px;
-  top:75%;
-  left:50%;
+  top:72.5%;
+  left:47.5%;
   background:rgba(222,222,221,0.5);
   clip-path: polygon(35% 0, 65% 0, 100% 80%, 0 80%);
   z-index:3;
